@@ -66,4 +66,4 @@ VisualC/tests/testsprite2/*.bmp
 VisualC/tests/testyuv/*.bmp
 
 *.VC.db
-*.VC.opendb
+*.VC.VC.opendb
