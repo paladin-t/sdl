@@ -65,6 +65,8 @@
 /VisualC/tests/testsprite2/*.bmp
 /VisualC/tests/testyuv/*.bmp
 
+/lib/*.framework
+
 /lib/x64/*.lib
 /lib/x64/*.dll
 /lib/x64/*.dylib
