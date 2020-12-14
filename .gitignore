@@ -65,11 +65,16 @@
 /VisualC/tests/testsprite2/*.bmp
 /VisualC/tests/testyuv/*.bmp
 
+/build
+
 /lib/*.framework
 
 /lib/x64/*.lib
 /lib/x64/*.dll
 /lib/x64/*.dylib
+/lib/x64/*.h
+/lib/x64/*.a
+/lib/x64/*.la
 /lib/x64/*.so
 /lib/x64/*.0
 /lib/x64/*.1
@@ -77,9 +82,22 @@
 /lib/x86/*.lib
 /lib/x86/*.dll
 /lib/x86/*.dylib
+/lib/x86/*.h
+/lib/x86/*.a
+/lib/x86/*.la
 /lib/x86/*.so
 /lib/x86/*.0
 /lib/x86/*.1
+
+/Makefile
+/Makefile.rules
+/config.log
+/config.status
+/libtool
+/sdl2-config
+/sdl2-config-version.cmake
+/sdl2-config.cmake
+/sdl2.pc
 
 *.VC.db
 *.VC.VC.opendb
