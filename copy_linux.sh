@@ -10,6 +10,12 @@ else
 fi
 
 if [ -d "$BASEDIR/build/.libs" ]; then
+  if [ ! -d "$BASEDIR/lib/$SUBDIR/" ]; then
+    mkdir -p "$BASEDIR/lib/$SUBDIR/"
+  fi
+  if [ ! -d "$BASEDIR/lib/$SUBDIR/linux/" ]; then
+    mkdir -p "$BASEDIR/lib/$SUBDIR/linux/"
+  fi
   cp -f "$BASEDIR/include/SDL_config.h" "$BASEDIR/lib/$SUBDIR/linux/"
   cp -f "$BASEDIR/build/.libs/libSDL2.a" "$BASEDIR/lib/$SUBDIR/"
   cp -f "$BASEDIR/build/.libs/libSDL2.la" "$BASEDIR/lib/$SUBDIR/"
